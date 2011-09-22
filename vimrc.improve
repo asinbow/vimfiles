@@ -73,6 +73,8 @@ nnoremap <leader>ah z30h
 nnoremap <leader>sg :args **/*.rb<CR>:argdo 0<CR>
 nnoremap <leader>sa :vim /<C-R><C-W>/j **/*
 nnoremap <leader>sr :vim /<C-R><C-W>/j **/*.rb<CR>
+nnoremap <leader>ssr :vim /<C-R><C-W>/j source/**/*.rb<CR>
+nnoremap <leader>scr :vim /<C-R><C-W>/j source/common/**/*.rb<CR>
 
 "map to bufexplorer
 nnoremap <C-B> :BufExplorer<cr>
