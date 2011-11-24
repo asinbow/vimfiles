@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/asinbow-wang/work/Asinbow/develop-source/vwgame-ruby/.bundle'
+let g:netrw_dirhist_2='/var/lib/mongodb'
+let g:netrw_dirhist_3='/etc/yaws'
+let g:netrw_dirhist_4='/etc/nginx'
+let g:netrw_dirhist_5='/etc/nginx/sites-available'
+let g:netrw_dirhist_6='/var/www/alo7/instance/app/shared/bundle/ruby/1.9.1/bundler/gems/rocketamf-9a61bb681f38'
+let g:netrw_dirhist_7='/home/asinbow-wang/.emacs.d'

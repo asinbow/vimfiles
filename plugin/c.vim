@@ -2707,7 +2707,7 @@ function! C_RereadTemplates ( msg )
 			if filereadable( s:C_GlobalTemplateFile )
 				call C_ReadTemplates( s:C_GlobalTemplateFile )
 			else
-				echomsg "Global template file '.s:C_GlobalTemplateFile.' not readable."
+                " echomsg "Global template file '".s:C_GlobalTemplateFile."' not readable."
 				return
 			endif
 			let	messsage	= "Templates read from '".s:C_GlobalTemplateFile."'"
